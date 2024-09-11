@@ -79,7 +79,7 @@ client.on(Events.InteractionCreate, async interaction => {
 
 // توكن بوتك هنا 
 
-client.login('MTI2MDgwMTc4ODYwNTM3MDQ1OQ.GnqGTs.aBLHQcwYFiG96_NhoudGJTXHYyXjeMr5hnfDJU');
+client.login(process.env.TOKEN);
 
 // This bot is free made by :k.xj (Abukhalid)
 // discord : https://discord.gg/2N2WqpUtEy
